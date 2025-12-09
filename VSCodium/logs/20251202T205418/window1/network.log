@@ -1,0 +1,5 @@
+2025-12-02 20:55:06.774 [error] #1: https://open-vsx.org/vscode/gallery/dracula-theme/theme-dracula/latest - error GET Failed to fetch
+2025-12-02 20:55:06.776 [error] #2: https://open-vsx.org/vscode/gallery/ms-python/debugpy/latest - error GET Failed to fetch
+2025-12-02 20:55:06.778 [error] #3: https://open-vsx.org/vscode/gallery/ms-python/python/latest - error GET Failed to fetch
+2025-12-02 20:55:06.780 [error] #4: https://open-vsx.org/vscode/gallery/ms-python/vscode-python-envs/latest - error GET Failed to fetch
+2025-12-02 20:55:26.819 [error] #5: https://open-vsx.org/vscode/gallery/extensionquery - error POST Failed to fetch

@@ -1,0 +1,13 @@
+2025-11-25 20:09:04.737 [info] Started local extension host with pid 3471.
+2025-11-25 20:09:09.858 [error] Cannot read properties of undefined (reading 'extensionId'): TypeError: Cannot read properties of undefined (reading 'extensionId')
+    at t (vscode-file://vscode-app/opt/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:4125:2745)
+    at mDt.recommendRemoteExtensionIfNeeded (vscode-file://vscode-app/opt/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:4125:3497)
+2025-11-25 20:09:10.858 [info] [perf] Render performance baseline is 70ms
+2025-11-25 20:10:16.910 [info] Extension host (LocalProcess pid: 3471) is unresponsive.
+2025-11-25 20:10:17.679 [info] Extension host (LocalProcess pid: 3471) is responsive.
+2025-11-25 20:10:17.681 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2025-11-25 20:10:20.272 [info] UNRESPONSIVE extension host: starting to profile NOW
+2025-11-25 20:10:21.607 [warning] UNRESPONSIVE extension host: 'ms-python.debugpy' took 41.07040641099027% of 2.87ms, saved PROFILE here: 'file:///tmp/exthost-2f69a9.cpuprofile'
+2025-11-26 08:09:53.031 [error] Error while getting the latest version for the extension ms-python.debugpy. TypeError: Failed to fetch
+2025-11-26 08:09:53.121 [error] Error while getting the latest version for the extension ms-python.python. TypeError: Failed to fetch
+2025-11-26 08:09:53.123 [error] Error while getting the latest version for the extension ms-python.vscode-python-envs. TypeError: Failed to fetch

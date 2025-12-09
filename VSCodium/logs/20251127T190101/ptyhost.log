@@ -1,0 +1,6 @@
+2025-11-27 19:01:12.305 [info] Revived process, old id d5bb0fc44a96c37ff65905e4371b29cf-1 -> new id 1
+2025-11-27 19:01:12.710 [info] Expanding terminal instance, old id d5bb0fc44a96c37ff65905e4371b29cf-1 -> new id 1
+2025-11-27 19:01:15.367 [warning] Persistent process "1": Process had no disconnect runners but was an orphan
+2025-11-27 19:01:15.367 [info] Persistent process reconnection "1"
+2025-11-27 19:01:15.580 [error] Failed to set sticky bit on /tmp/lain-codium-zsh: Error: ENOENT: no such file or directory, chmod '/tmp/lain-codium-zsh'
+2025-11-27 19:01:16.295 [info] Persistent process "1": Replaying 232 chars and 1 size events

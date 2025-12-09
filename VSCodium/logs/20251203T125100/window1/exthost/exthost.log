@@ -1,0 +1,319 @@
+2025-12-03 12:51:06.907 [info] Extension host with pid 2810 started
+2025-12-03 12:51:06.907 [info] Skipping acquiring lock for /home/lain/.config/VSCodium/User/workspaceStorage/d5bb0fc44a96c37ff65905e4371b29cf.
+2025-12-03 12:51:07.336 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2025-12-03 12:51:07.530 [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:markdown'
+2025-12-03 12:51:07.578 [info] ExtensionService#_doActivateExtension vscode.markdown-language-features, startup: false, activationEvent: 'onLanguage:markdown'
+2025-12-03 12:51:08.066 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-12-03 12:51:08.147 [info] ExtensionService#_doActivateExtension ms-python.python, startup: false, activationEvent: 'onLanguage:python', root cause: ms-python.debugpy
+2025-12-03 12:51:08.848 [info] ExtensionService#_doActivateExtension ms-python.vscode-python-envs, startup: false, activationEvent: 'onLanguage:python'
+2025-12-03 12:51:09.490 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2025-12-03 12:51:10.024 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2025-12-03 12:51:10.495 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-12-03 12:51:11.294 [info] Eager extensions activated
+2025-12-03 12:51:11.510 [info] ExtensionService#_doActivateExtension ms-python.debugpy, startup: false, activationEvent: 'onLanguage:python'
+2025-12-03 12:51:12.135 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-12-03 12:51:12.522 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-12-03 12:51:12.719 [info] ExtensionService#_doActivateExtension vscode.markdown-math, startup: false, activationEvent: 'api', root cause: vscode.markdown-language-features
+2025-12-03 12:51:13.269 [info] ExtensionService#_doActivateExtension vscode.terminal-suggest, startup: false, activationEvent: 'onTerminalShellIntegration:*'
+2025-12-03 17:00:02.430 [error] Error: Git error
+	at ChildProcess.<anonymous> (/opt/vscodium-bin/resources/app/extensions/git/dist/main.js:2:608708)
+	at ChildProcess.emit (node:events:531:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-12-03 17:00:02.430 [error] Error: Git error
+	at ChildProcess.<anonymous> (/opt/vscodium-bin/resources/app/extensions/git/dist/main.js:2:608708)
+	at ChildProcess.emit (node:events:531:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-12-03 17:00:02.430 [error] Error: Git error
+	at ChildProcess.<anonymous> (/opt/vscodium-bin/resources/app/extensions/git/dist/main.js:2:608708)
+	at ChildProcess.emit (node:events:531:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-12-03 17:00:02.430 [error] Error: Git error
+	at ChildProcess.<anonymous> (/opt/vscodium-bin/resources/app/extensions/git/dist/main.js:2:608708)
+	at ChildProcess.emit (node:events:531:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-12-03 17:00:02.430 [error] Error: Git error
+	at ChildProcess.<anonymous> (/opt/vscodium-bin/resources/app/extensions/git/dist/main.js:2:608708)
+	at ChildProcess.emit (node:events:531:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-12-03 17:00:02.430 [error] Error: Git error
+	at ChildProcess.<anonymous> (/opt/vscodium-bin/resources/app/extensions/git/dist/main.js:2:608708)
+	at ChildProcess.emit (node:events:531:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-12-03 17:00:02.430 [error] Error: Git error
+	at ChildProcess.<anonymous> (/opt/vscodium-bin/resources/app/extensions/git/dist/main.js:2:608708)
+	at ChildProcess.emit (node:events:531:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-12-03 17:00:03.433 [error] Error: Git error
+	at ChildProcess.<anonymous> (/opt/vscodium-bin/resources/app/extensions/git/dist/main.js:2:608708)
+	at ChildProcess.emit (node:events:531:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-12-03 17:00:03.436 [error] Error: Git error
+	at ChildProcess.<anonymous> (/opt/vscodium-bin/resources/app/extensions/git/dist/main.js:2:608708)
+	at ChildProcess.emit (node:events:531:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-12-03 17:00:03.438 [error] Error: Git error
+	at ChildProcess.<anonymous> (/opt/vscodium-bin/resources/app/extensions/git/dist/main.js:2:608708)
+	at ChildProcess.emit (node:events:531:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-12-03 17:00:03.440 [error] Error: Git error
+	at ChildProcess.<anonymous> (/opt/vscodium-bin/resources/app/extensions/git/dist/main.js:2:608708)
+	at ChildProcess.emit (node:events:531:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-12-03 17:00:03.442 [error] Error: Git error
+	at ChildProcess.<anonymous> (/opt/vscodium-bin/resources/app/extensions/git/dist/main.js:2:608708)
+	at ChildProcess.emit (node:events:531:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-12-03 17:00:03.444 [error] Error: Git error
+	at ChildProcess.<anonymous> (/opt/vscodium-bin/resources/app/extensions/git/dist/main.js:2:608708)
+	at ChildProcess.emit (node:events:531:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-12-03 17:00:03.446 [error] Error: Git error
+	at ChildProcess.<anonymous> (/opt/vscodium-bin/resources/app/extensions/git/dist/main.js:2:608708)
+	at ChildProcess.emit (node:events:531:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-12-03 17:00:03.823 [error] Error: Git error
+	at ChildProcess.<anonymous> (/opt/vscodium-bin/resources/app/extensions/git/dist/main.js:2:608708)
+	at ChildProcess.emit (node:events:531:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-12-03 17:00:03.823 [error] Error: Git error
+	at ChildProcess.<anonymous> (/opt/vscodium-bin/resources/app/extensions/git/dist/main.js:2:608708)
+	at ChildProcess.emit (node:events:531:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-12-03 17:00:03.823 [error] Error: Git error
+	at ChildProcess.<anonymous> (/opt/vscodium-bin/resources/app/extensions/git/dist/main.js:2:608708)
+	at ChildProcess.emit (node:events:531:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-12-03 17:00:03.823 [error] Error: Git error
+	at ChildProcess.<anonymous> (/opt/vscodium-bin/resources/app/extensions/git/dist/main.js:2:608708)
+	at ChildProcess.emit (node:events:531:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-12-03 17:00:03.823 [error] Error: Git error
+	at ChildProcess.<anonymous> (/opt/vscodium-bin/resources/app/extensions/git/dist/main.js:2:608708)
+	at ChildProcess.emit (node:events:531:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-12-03 17:00:03.823 [error] Error: Git error
+	at ChildProcess.<anonymous> (/opt/vscodium-bin/resources/app/extensions/git/dist/main.js:2:608708)
+	at ChildProcess.emit (node:events:531:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-12-03 17:00:03.823 [error] Error: Git error
+	at ChildProcess.<anonymous> (/opt/vscodium-bin/resources/app/extensions/git/dist/main.js:2:608708)
+	at ChildProcess.emit (node:events:531:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-12-03 17:00:03.823 [error] Error: Git error
+	at ChildProcess.<anonymous> (/opt/vscodium-bin/resources/app/extensions/git/dist/main.js:2:608708)
+	at ChildProcess.emit (node:events:531:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-12-03 17:00:03.823 [error] Error: Git error
+	at ChildProcess.<anonymous> (/opt/vscodium-bin/resources/app/extensions/git/dist/main.js:2:608708)
+	at ChildProcess.emit (node:events:531:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-12-03 17:00:04.825 [error] Error: Git error
+	at ChildProcess.<anonymous> (/opt/vscodium-bin/resources/app/extensions/git/dist/main.js:2:608708)
+	at ChildProcess.emit (node:events:531:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-12-03 17:00:04.826 [error] Error: Git error
+	at ChildProcess.<anonymous> (/opt/vscodium-bin/resources/app/extensions/git/dist/main.js:2:608708)
+	at ChildProcess.emit (node:events:531:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-12-03 17:00:04.827 [error] Error: Git error
+	at ChildProcess.<anonymous> (/opt/vscodium-bin/resources/app/extensions/git/dist/main.js:2:608708)
+	at ChildProcess.emit (node:events:531:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-12-03 17:00:04.828 [error] Error: Git error
+	at ChildProcess.<anonymous> (/opt/vscodium-bin/resources/app/extensions/git/dist/main.js:2:608708)
+	at ChildProcess.emit (node:events:531:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-12-03 17:00:04.829 [error] Error: Git error
+	at ChildProcess.<anonymous> (/opt/vscodium-bin/resources/app/extensions/git/dist/main.js:2:608708)
+	at ChildProcess.emit (node:events:531:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-12-03 17:00:04.830 [error] Error: Git error
+	at ChildProcess.<anonymous> (/opt/vscodium-bin/resources/app/extensions/git/dist/main.js:2:608708)
+	at ChildProcess.emit (node:events:531:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-12-03 17:00:04.830 [error] Error: Git error
+	at ChildProcess.<anonymous> (/opt/vscodium-bin/resources/app/extensions/git/dist/main.js:2:608708)
+	at ChildProcess.emit (node:events:531:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-12-03 17:00:04.831 [error] Error: Git error
+	at ChildProcess.<anonymous> (/opt/vscodium-bin/resources/app/extensions/git/dist/main.js:2:608708)
+	at ChildProcess.emit (node:events:531:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-12-03 17:00:04.832 [error] Error: Git error
+	at ChildProcess.<anonymous> (/opt/vscodium-bin/resources/app/extensions/git/dist/main.js:2:608708)
+	at ChildProcess.emit (node:events:531:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-12-03 17:00:13.927 [error] Error: Git error
+	at ChildProcess.<anonymous> (/opt/vscodium-bin/resources/app/extensions/git/dist/main.js:2:608708)
+	at ChildProcess.emit (node:events:531:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-12-03 17:00:13.927 [error] Error: Git error
+	at ChildProcess.<anonymous> (/opt/vscodium-bin/resources/app/extensions/git/dist/main.js:2:608708)
+	at ChildProcess.emit (node:events:531:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-12-03 17:00:13.927 [error] Error: Git error
+	at ChildProcess.<anonymous> (/opt/vscodium-bin/resources/app/extensions/git/dist/main.js:2:608708)
+	at ChildProcess.emit (node:events:531:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-12-03 17:00:13.927 [error] Error: Git error
+	at ChildProcess.<anonymous> (/opt/vscodium-bin/resources/app/extensions/git/dist/main.js:2:608708)
+	at ChildProcess.emit (node:events:531:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-12-03 17:00:13.927 [error] Error: Git error
+	at ChildProcess.<anonymous> (/opt/vscodium-bin/resources/app/extensions/git/dist/main.js:2:608708)
+	at ChildProcess.emit (node:events:531:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-12-03 17:00:13.927 [error] Error: Git error
+	at ChildProcess.<anonymous> (/opt/vscodium-bin/resources/app/extensions/git/dist/main.js:2:608708)
+	at ChildProcess.emit (node:events:531:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-12-03 17:00:13.927 [error] Error: Git error
+	at ChildProcess.<anonymous> (/opt/vscodium-bin/resources/app/extensions/git/dist/main.js:2:608708)
+	at ChildProcess.emit (node:events:531:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-12-03 17:00:14.930 [error] Error: Git error
+	at ChildProcess.<anonymous> (/opt/vscodium-bin/resources/app/extensions/git/dist/main.js:2:608708)
+	at ChildProcess.emit (node:events:531:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-12-03 17:00:14.932 [error] Error: Git error
+	at ChildProcess.<anonymous> (/opt/vscodium-bin/resources/app/extensions/git/dist/main.js:2:608708)
+	at ChildProcess.emit (node:events:531:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-12-03 17:00:14.934 [error] Error: Git error
+	at ChildProcess.<anonymous> (/opt/vscodium-bin/resources/app/extensions/git/dist/main.js:2:608708)
+	at ChildProcess.emit (node:events:531:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-12-03 17:00:14.936 [error] Error: Git error
+	at ChildProcess.<anonymous> (/opt/vscodium-bin/resources/app/extensions/git/dist/main.js:2:608708)
+	at ChildProcess.emit (node:events:531:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-12-03 17:00:14.937 [error] Error: Git error
+	at ChildProcess.<anonymous> (/opt/vscodium-bin/resources/app/extensions/git/dist/main.js:2:608708)
+	at ChildProcess.emit (node:events:531:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-12-03 17:00:14.938 [error] Error: Git error
+	at ChildProcess.<anonymous> (/opt/vscodium-bin/resources/app/extensions/git/dist/main.js:2:608708)
+	at ChildProcess.emit (node:events:531:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-12-03 17:00:14.940 [error] Error: Git error
+	at ChildProcess.<anonymous> (/opt/vscodium-bin/resources/app/extensions/git/dist/main.js:2:608708)
+	at ChildProcess.emit (node:events:531:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-12-03 17:00:15.487 [error] Error: Git error
+	at ChildProcess.<anonymous> (/opt/vscodium-bin/resources/app/extensions/git/dist/main.js:2:608708)
+	at ChildProcess.emit (node:events:531:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-12-03 17:00:15.488 [error] Error: Git error
+	at ChildProcess.<anonymous> (/opt/vscodium-bin/resources/app/extensions/git/dist/main.js:2:608708)
+	at ChildProcess.emit (node:events:531:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-12-03 17:00:15.488 [error] Error: Git error
+	at ChildProcess.<anonymous> (/opt/vscodium-bin/resources/app/extensions/git/dist/main.js:2:608708)
+	at ChildProcess.emit (node:events:531:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-12-03 17:00:15.488 [error] Error: Git error
+	at ChildProcess.<anonymous> (/opt/vscodium-bin/resources/app/extensions/git/dist/main.js:2:608708)
+	at ChildProcess.emit (node:events:531:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-12-03 17:00:15.488 [error] Error: Git error
+	at ChildProcess.<anonymous> (/opt/vscodium-bin/resources/app/extensions/git/dist/main.js:2:608708)
+	at ChildProcess.emit (node:events:531:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-12-03 17:00:16.196 [error] Error: Git error
+	at ChildProcess.<anonymous> (/opt/vscodium-bin/resources/app/extensions/git/dist/main.js:2:608708)
+	at ChildProcess.emit (node:events:531:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-12-03 17:00:16.196 [error] Error: Git error
+	at ChildProcess.<anonymous> (/opt/vscodium-bin/resources/app/extensions/git/dist/main.js:2:608708)
+	at ChildProcess.emit (node:events:531:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-12-03 17:00:16.196 [error] Error: Git error
+	at ChildProcess.<anonymous> (/opt/vscodium-bin/resources/app/extensions/git/dist/main.js:2:608708)
+	at ChildProcess.emit (node:events:531:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-12-03 17:00:16.196 [error] Error: Git error
+	at ChildProcess.<anonymous> (/opt/vscodium-bin/resources/app/extensions/git/dist/main.js:2:608708)
+	at ChildProcess.emit (node:events:531:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-12-03 17:00:16.196 [error] Error: Git error
+	at ChildProcess.<anonymous> (/opt/vscodium-bin/resources/app/extensions/git/dist/main.js:2:608708)
+	at ChildProcess.emit (node:events:531:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-12-03 17:00:16.196 [error] Error: Git error
+	at ChildProcess.<anonymous> (/opt/vscodium-bin/resources/app/extensions/git/dist/main.js:2:608708)
+	at ChildProcess.emit (node:events:531:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-12-03 17:00:16.196 [error] Error: Git error
+	at ChildProcess.<anonymous> (/opt/vscodium-bin/resources/app/extensions/git/dist/main.js:2:608708)
+	at ChildProcess.emit (node:events:531:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-12-03 17:00:16.196 [error] Error: Git error
+	at ChildProcess.<anonymous> (/opt/vscodium-bin/resources/app/extensions/git/dist/main.js:2:608708)
+	at ChildProcess.emit (node:events:531:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-12-03 17:00:16.489 [error] Error: Git error
+	at ChildProcess.<anonymous> (/opt/vscodium-bin/resources/app/extensions/git/dist/main.js:2:608708)
+	at ChildProcess.emit (node:events:531:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-12-03 17:00:16.491 [error] Error: Git error
+	at ChildProcess.<anonymous> (/opt/vscodium-bin/resources/app/extensions/git/dist/main.js:2:608708)
+	at ChildProcess.emit (node:events:531:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-12-03 17:00:16.492 [error] Error: Git error
+	at ChildProcess.<anonymous> (/opt/vscodium-bin/resources/app/extensions/git/dist/main.js:2:608708)
+	at ChildProcess.emit (node:events:531:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-12-03 17:00:16.495 [error] Error: Git error
+	at ChildProcess.<anonymous> (/opt/vscodium-bin/resources/app/extensions/git/dist/main.js:2:608708)
+	at ChildProcess.emit (node:events:531:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-12-03 17:00:16.499 [error] Error: Git error
+	at ChildProcess.<anonymous> (/opt/vscodium-bin/resources/app/extensions/git/dist/main.js:2:608708)
+	at ChildProcess.emit (node:events:531:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-12-03 17:00:17.197 [error] Error: Git error
+	at ChildProcess.<anonymous> (/opt/vscodium-bin/resources/app/extensions/git/dist/main.js:2:608708)
+	at ChildProcess.emit (node:events:531:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-12-03 17:00:17.198 [error] Error: Git error
+	at ChildProcess.<anonymous> (/opt/vscodium-bin/resources/app/extensions/git/dist/main.js:2:608708)
+	at ChildProcess.emit (node:events:531:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-12-03 17:00:17.199 [error] Error: Git error
+	at ChildProcess.<anonymous> (/opt/vscodium-bin/resources/app/extensions/git/dist/main.js:2:608708)
+	at ChildProcess.emit (node:events:531:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-12-03 17:00:17.200 [error] Error: Git error
+	at ChildProcess.<anonymous> (/opt/vscodium-bin/resources/app/extensions/git/dist/main.js:2:608708)
+	at ChildProcess.emit (node:events:531:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-12-03 17:00:17.201 [error] Error: Git error
+	at ChildProcess.<anonymous> (/opt/vscodium-bin/resources/app/extensions/git/dist/main.js:2:608708)
+	at ChildProcess.emit (node:events:531:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-12-03 17:00:17.202 [error] Error: Git error
+	at ChildProcess.<anonymous> (/opt/vscodium-bin/resources/app/extensions/git/dist/main.js:2:608708)
+	at ChildProcess.emit (node:events:531:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-12-03 17:00:17.203 [error] Error: Git error
+	at ChildProcess.<anonymous> (/opt/vscodium-bin/resources/app/extensions/git/dist/main.js:2:608708)
+	at ChildProcess.emit (node:events:531:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-12-03 17:00:17.205 [error] Error: Git error
+	at ChildProcess.<anonymous> (/opt/vscodium-bin/resources/app/extensions/git/dist/main.js:2:608708)
+	at ChildProcess.emit (node:events:531:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+2025-12-03 17:26:50.238 [info] Extension host terminating: renderer closed the MessagePort
+2025-12-03 17:26:50.288 [error] TypeError: Cannot read properties of undefined (reading 'subscriptions')
+	at Object.X [as deactivate] (/home/lain/.vscode-oss/extensions/ms-python.vscode-python-envs-1.10.0-universal/dist/extension.js:2:668378)
+	at xX._deactivate (file:///opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:14635)
+	at file:///opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:12146
+	at Array.map (<anonymous>)
+	at xX._deactivateAll (file:///opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:12134)
+	at xX.terminate (file:///opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:12487)
+	at nM.terminate (file:///opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:120:1082)
+	at $s (file:///opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:402:11092)
+	at MessagePortMain.<anonymous> (file:///opt/vscodium-bin/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:402:7538)
+	at MessagePortMain.emit (node:events:519:28)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2949)
+2025-12-03 17:26:50.303 [info] Extension host with pid 2810 exiting with code 0

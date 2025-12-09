@@ -1,0 +1,4 @@
+2025-11-25 20:07:16.645 [info] update#setState disabled
+2025-11-25 20:07:16.645 [info] update#ctor - updates are disabled as there is no update URL
+2025-11-25 20:07:24.122 [warning] [storage main] detected slow close() operation: Time: 5307ms, DB size: 32768b, Large Keys: terminal.integrated.environmentVariableCollectionsV2:2825, __$__targetStorageMarker:1719, memento/workbench.editors.files.textFileEditor:1336, memento/workbench.parts.editor:1304, ms-python.python:789
+2025-11-25 20:07:24.823 [warning] [storage main] detected slow close() operation: Time: 6011ms, DB size: 163840b, Large Keys: iconThemeData:96314, colorThemeData:6528, ms-python.python:3160, terminal.history.entries.commands:2654, workbench.activity.placeholderViewlets:2501

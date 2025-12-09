@@ -1,0 +1,26 @@
+2025-11-26 15:48:30.620 [info] Telemetry is disabled
+2025-11-26 15:48:30.620 [info] Telemetry level is off
+2025-11-26 15:48:30.620 [info] Experiments are disabled, only manually opted experiments are active.
+2025-11-26 15:48:30.620 [warning] Dir "/home/lain/vscodium/.pixi/envs" is not watchable (directory does not exist)
+2025-11-26 15:48:30.773 [info] Python interpreter path: /bin/python
+2025-11-26 15:48:30.803 [info] > pyenv which python
+2025-11-26 15:48:30.803 [info] cwd: .
+2025-11-26 15:48:34.391 [info] Starting Jedi language server for vscodium.
+2025-11-26 15:52:26.381 [info] Discover tests for workspace name: undefined - uri: /home/lain/.config/VSCodium/User/settings.json
+2025-11-26 15:55:45.083 [info] CreateEnv Trigger - Skipping for /home/lain/vscodium/projects/PomodoroTimer/timer.py
+2025-11-26 15:55:45.422 [info] Discover tests for workspace name: vscodium - uri: /home/lain/vscodium/projects/PomodoroTimer/timer.py
+2025-11-26 15:55:45.703 [info] Send text to terminal: /bin/python /home/lain/vscodium/projects/PomodoroTimer/timer.py
+2025-11-26 16:08:52.015 [info] Send text to terminal: /bin/python /home/lain/vscodium/projects/PomodoroTimer/timer.py
+2025-11-26 16:08:52.261 [info] Discover tests for workspace name: vscodium - uri: /home/lain/vscodium/projects/PomodoroTimer/timer.py
+2025-11-26 16:09:11.701 [info] Send text to terminal: /bin/python /home/lain/vscodium/projects/PomodoroTimer/timer.py
+2025-11-26 16:09:11.947 [info] Discover tests for workspace name: vscodium - uri: /home/lain/vscodium/projects/PomodoroTimer/timer.py
+2025-11-26 16:09:42.564 [info] Send text to terminal: /bin/python /home/lain/vscodium/projects/PomodoroTimer/timer.py
+2025-11-26 16:09:42.812 [info] Discover tests for workspace name: vscodium - uri: /home/lain/vscodium/projects/PomodoroTimer/timer.py
+2025-11-26 16:09:59.567 [info] Send text to terminal: /bin/python /home/lain/vscodium/projects/PomodoroTimer/timer.py
+2025-11-26 16:09:59.814 [info] Discover tests for workspace name: vscodium - uri: /home/lain/vscodium/projects/PomodoroTimer/timer.py
+2025-11-26 16:13:14.806 [info] Send text to terminal: /bin/python /home/lain/vscodium/projects/PomodoroTimer/timer.py
+2025-11-26 16:13:15.053 [info] Discover tests for workspace name: vscodium - uri: /home/lain/vscodium/projects/PomodoroTimer/timer.py
+2025-11-26 16:23:28.628 [info] Send text to terminal: /bin/python /home/lain/vscodium/projects/PomodoroTimer/timer.py
+2025-11-26 16:23:28.874 [info] Discover tests for workspace name: vscodium - uri: /home/lain/vscodium/projects/PomodoroTimer/timer.py
+2025-11-26 16:24:00.368 [info] Send text to terminal: /bin/python /home/lain/vscodium/projects/PomodoroTimer/timer.py
+2025-11-26 16:24:00.614 [info] Discover tests for workspace name: vscodium - uri: /home/lain/vscodium/projects/PomodoroTimer/timer.py

@@ -1,0 +1,8 @@
+2025-11-25 19:54:48.551 [info] Started local extension host with pid 123966.
+2025-11-25 19:54:53.503 [error] Error while getting the latest version for the extension ms-python.debugpy. TypeError: Failed to fetch
+2025-11-25 19:54:53.508 [error] Error while getting the latest version for the extension ms-python.python. TypeError: Failed to fetch
+2025-11-25 19:54:53.511 [error] Error while getting the latest version for the extension ms-python.vscode-python-envs. TypeError: Failed to fetch
+2025-11-25 19:54:56.625 [error] Cannot read properties of undefined (reading 'extensionId'): TypeError: Cannot read properties of undefined (reading 'extensionId')
+    at t (vscode-file://vscode-app/opt/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:4125:2745)
+    at mDt.recommendRemoteExtensionIfNeeded (vscode-file://vscode-app/opt/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:4125:3497)
+2025-11-25 19:54:57.053 [info] [perf] Render performance baseline is 84ms

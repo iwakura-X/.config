@@ -1,0 +1,77 @@
+2025-11-26 19:01:15.038 [info] [main] Log level: Info
+2025-11-26 19:01:15.038 [info] [main] Validating found git in: "git"
+2025-11-26 19:01:15.038 [info] [main] Using git "2.52.0" from "git"
+2025-11-26 19:01:15.038 [info] [Model][doInitialScan] Initial repository scan started
+2025-11-26 19:01:15.038 [info] > git rev-parse --show-toplevel [52ms]
+2025-11-26 19:01:15.038 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-11-26 19:01:15.038 [info] > git rev-parse --show-toplevel [75ms]
+2025-11-26 19:01:15.038 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-11-26 19:01:15.038 [info] > git rev-parse --show-toplevel [11ms]
+2025-11-26 19:01:15.038 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-11-26 19:01:15.039 [info] > git rev-parse --show-toplevel [338ms]
+2025-11-26 19:01:15.039 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-11-26 19:01:15.370 [info] > git rev-parse --show-toplevel [55ms]
+2025-11-26 19:01:15.370 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-11-26 19:01:15.371 [info] [Model][doInitialScan] Initial repository scan completed - repositories (0), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2025-11-26 19:01:15.403 [info] > git rev-parse --show-toplevel [6ms]
+2025-11-26 19:01:15.403 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-11-26 19:01:16.075 [info] > git rev-parse --show-toplevel [42ms]
+2025-11-26 19:01:16.075 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-11-26 19:01:16.106 [info] > git rev-parse --show-toplevel [8ms]
+2025-11-26 19:01:16.106 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-11-26 19:01:16.459 [info] > git rev-parse --show-toplevel [115ms]
+2025-11-26 19:01:16.698 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-11-26 19:06:33.689 [info] > git rev-parse --show-toplevel [14ms]
+2025-11-26 19:06:33.717 [info] > git rev-parse --git-dir --git-common-dir --show-superproject-working-tree [19ms]
+2025-11-26 19:06:33.752 [info] [Model][openRepository] Opened repository (path): /home/lain/vscodium/projects/WaveX
+2025-11-26 19:06:33.752 [info] [Model][openRepository] Opened repository (real path): /home/lain/vscodium/projects/WaveX
+2025-11-26 19:06:33.752 [info] [Model][openRepository] Opened repository (kind): repository
+2025-11-26 19:06:33.794 [info] > git config --get commit.template [25ms]
+2025-11-26 19:06:33.857 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [78ms]
+2025-11-26 19:06:34.306 [info] > git status -z -uall [436ms]
+2025-11-26 19:06:34.306 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [424ms]
+2025-11-26 19:06:34.593 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [200ms]
+2025-11-26 19:06:34.625 [info] > git config --get --local branch.main.vscode-merge-base [20ms]
+2025-11-26 19:06:34.659 [info] > git config --get commit.template [122ms]
+2025-11-26 19:06:34.700 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [43ms]
+2025-11-26 19:06:34.792 [info] > git merge-base refs/heads/main refs/remotes/origin/main [39ms]
+2025-11-26 19:06:34.835 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [140ms]
+2025-11-26 19:06:34.900 [info] > git status -z -uall [36ms]
+2025-11-26 19:06:34.905 [info] > git diff --name-status -z --diff-filter=ADMR --find-renames=50% afa342e11314871d8d6abf840b5ef5db26b0a45c...refs/remotes/origin/main -- [70ms]
+2025-11-26 19:06:34.913 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [18ms]
+2025-11-26 19:06:34.980 [info] > git check-ignore -v -z --stdin [7ms]
+2025-11-26 19:06:35.527 [info] > git ls-files --stage -- README.md [61ms]
+2025-11-26 19:06:35.544 [info] > git show --textconv :README.md [93ms]
+2025-11-26 19:06:35.549 [info] > git cat-file -s 46c8fdf82e590c785e414dc7f89121501020d3ba [12ms]
+2025-11-26 19:06:36.226 [info] > git blame --root --incremental afa342e11314871d8d6abf840b5ef5db26b0a45c -- README.md [98ms]
+2025-11-26 19:07:47.727 [info] > git rev-parse --show-toplevel [7ms]
+2025-11-26 19:07:47.728 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-11-26 19:07:48.084 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z --shortstat --diff-merges=first-parent -n50 --skip=0 --topo-order --decorate=full --stdin [486ms]
+2025-11-26 19:07:48.144 [info] > git merge-base main origin/main [6ms]
+2025-11-26 19:08:00.140 [info] > git config --get commit.template [12ms]
+2025-11-26 19:08:00.142 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2025-11-26 19:08:00.160 [info] > git status -z -uall [11ms]
+2025-11-26 19:08:00.161 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [3ms]
+2025-11-26 19:08:04.044 [info] > git add -A -- . [142ms]
+2025-11-26 19:08:04.044 [info] warning: adding embedded git repository: src/core/kiwiclient
+hint: You've added another git repository inside your current repository.
+hint: Clones of the outer repository will not contain the contents of
+hint: the embedded repository and will not know how to obtain it.
+hint: If you meant to add a submodule, use:
+hint:
+hint: 	git submodule add <url> src/core/kiwiclient
+hint:
+hint: If you added this path by mistake, you can remove it from the
+hint: index with:
+hint:
+hint: 	git rm --cached src/core/kiwiclient
+hint:
+hint: See "git help submodule" for more information.
+hint: Disable this message with "git config set advice.addEmbeddedRepo false"
+2025-11-26 19:08:05.050 [info] > git show --textconv :.git/COMMIT_EDITMSG [10ms]
+2025-11-26 19:08:05.060 [info] > git ls-files --stage -- .git/COMMIT_EDITMSG [12ms]
+2025-11-26 19:08:05.069 [info] > git hash-object -t tree /dev/null [10ms]
+2025-11-26 19:08:05.069 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/lain/vscodium/projects/WaveX/.git/COMMIT_EDITMSG.git?%7B%22path%22%3A%22%2Fhome%2Flain%2Fvscodium%2Fprojects%2FWaveX%2F.git%2FCOMMIT_EDITMSG%22%2C%22ref%22%3A%22%22%7D
+2025-11-26 19:08:05.074 [info] > git hash-object -t tree /dev/null [7ms]
+2025-11-26 19:08:05.076 [warning] [GitFileSystemProvider][stat] File not found - git:/home/lain/vscodium/projects/WaveX/.git/COMMIT_EDITMSG.git?%7B%22path%22%3A%22%2Fhome%2Flain%2Fvscodium%2Fprojects%2FWaveX%2F.git%2FCOMMIT_EDITMSG%22%2C%22ref%22%3A%22%22%7D
+2025-11-26 19:08:05.427 [info] > git check-ignore -v -z --stdin [2ms]

@@ -1,0 +1,5 @@
+2025-11-27 19:01:09.616 [info] Started local extension host with pid 2845.
+2025-11-27 19:01:19.052 [error] Cannot read properties of undefined (reading 'extensionId'): TypeError: Cannot read properties of undefined (reading 'extensionId')
+    at t (vscode-file://vscode-app/opt/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:4125:2745)
+    at mDt.recommendRemoteExtensionIfNeeded (vscode-file://vscode-app/opt/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:4125:3497)
+2025-11-27 19:01:20.205 [info] [perf] Render performance baseline is 184ms

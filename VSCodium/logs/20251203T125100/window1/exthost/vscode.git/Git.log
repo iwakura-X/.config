@@ -1,0 +1,135 @@
+2025-12-03 12:51:13.251 [info] [main] Log level: Info
+2025-12-03 12:51:13.251 [info] [main] Validating found git in: "git"
+2025-12-03 12:51:13.251 [info] [main] Using git "2.52.0" from "git"
+2025-12-03 12:51:13.251 [info] [Model][doInitialScan] Initial repository scan started
+2025-12-03 12:51:13.251 [info] > git rev-parse --show-toplevel [211ms]
+2025-12-03 12:51:13.251 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-12-03 12:51:13.251 [info] > git rev-parse --show-toplevel [397ms]
+2025-12-03 12:51:13.535 [info] > git rev-parse --git-dir --git-common-dir --show-superproject-working-tree [278ms]
+2025-12-03 12:51:13.562 [info] [Model][openRepository] Opened repository (path): /home/lain/vscodium/projects/WaveX
+2025-12-03 12:51:13.562 [info] [Model][openRepository] Opened repository (real path): /home/lain/vscodium/projects/WaveX
+2025-12-03 12:51:13.562 [info] [Model][openRepository] Opened repository (kind): repository
+2025-12-03 12:51:13.615 [info] > git rev-parse --show-toplevel [12ms]
+2025-12-03 12:51:13.615 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-12-03 12:51:13.616 [info] > git config --get commit.template [22ms]
+2025-12-03 12:51:13.660 [info] > git rev-parse --show-toplevel [32ms]
+2025-12-03 12:51:13.660 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-12-03 12:51:13.683 [info] > git rev-parse --show-toplevel [7ms]
+2025-12-03 12:51:13.683 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-12-03 12:51:13.684 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2025-12-03 12:51:13.697 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [57ms]
+2025-12-03 12:51:13.701 [info] > git rev-parse --show-toplevel [9ms]
+2025-12-03 12:51:13.701 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-12-03 12:51:13.774 [info] > git rev-parse --show-toplevel [45ms]
+2025-12-03 12:51:13.774 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-12-03 12:51:13.810 [info] > git rev-parse --show-toplevel [5ms]
+2025-12-03 12:51:13.810 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-12-03 12:51:13.820 [info] > git rev-parse --show-toplevel [3ms]
+2025-12-03 12:51:13.820 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-12-03 12:51:13.877 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [80ms]
+2025-12-03 12:51:13.929 [info] > git ls-files --stage -- README.md [2ms]
+2025-12-03 12:51:13.985 [info] > git show --textconv :README.md [66ms]
+2025-12-03 12:51:13.986 [info] > git cat-file -s 1937b0a53d3b6cbbe1889ca5f156c716ae691caf [51ms]
+2025-12-03 12:51:14.078 [info] > git status -z -uall [290ms]
+2025-12-03 12:51:14.172 [info] > git check-ignore -v -z --stdin [11ms]
+2025-12-03 12:51:14.174 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [27ms]
+2025-12-03 12:51:14.192 [info] > git config --get --local branch.main.vscode-merge-base [11ms]
+2025-12-03 12:51:14.202 [info] > git config --get commit.template [30ms]
+2025-12-03 12:51:14.204 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [4ms]
+2025-12-03 12:51:14.239 [info] > git merge-base refs/heads/main refs/remotes/origin/main [24ms]
+2025-12-03 12:51:14.249 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [23ms]
+2025-12-03 12:51:14.251 [info] > git diff --name-status -z --diff-filter=ADMR --find-renames=50% afa342e11314871d8d6abf840b5ef5db26b0a45c...refs/remotes/origin/main -- [5ms]
+2025-12-03 12:51:14.268 [info] > git status -z -uall [10ms]
+2025-12-03 12:51:14.270 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [3ms]
+2025-12-03 12:51:14.329 [info] > git blame --root --incremental afa342e11314871d8d6abf840b5ef5db26b0a45c -- README.md [91ms]
+2025-12-03 12:51:14.602 [info] > git show --textconv HEAD:README.md [9ms]
+2025-12-03 12:51:14.604 [info] > git ls-tree -l HEAD -- README.md [4ms]
+2025-12-03 16:59:16.806 [info] > git rev-parse --show-toplevel [2ms]
+2025-12-03 16:59:16.806 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-12-03 16:59:32.511 [info] > git rev-parse --show-toplevel [6ms]
+2025-12-03 16:59:32.511 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-12-03 16:59:39.731 [info] > git rev-parse --show-toplevel [3ms]
+2025-12-03 16:59:39.731 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-12-03 17:00:00.166 [info] > git check-ignore -v -z --stdin [4ms]
+2025-12-03 17:00:01.243 [info] > git check-ignore -v -z --stdin [3ms]
+2025-12-03 17:00:02.423 [info] > git check-ignore -v -z --stdin [3ms]
+2025-12-03 17:00:03.822 [info] > git check-ignore -v -z --stdin [3ms]
+2025-12-03 17:00:06.149 [info] > git show --textconv :src/core/kiwisound.py [39ms]
+2025-12-03 17:00:06.149 [info] > git show --textconv HEAD:src/core/kiwisound.py [22ms]
+2025-12-03 17:00:06.149 [info] > git ls-files --stage -- src/core/kiwisound.py [12ms]
+2025-12-03 17:00:06.174 [info] > git hash-object -t tree /dev/null [7ms]
+2025-12-03 17:00:06.175 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/lain/vscodium/projects/WaveX/src/core/kiwisound.py.git?%7B%22path%22%3A%22%2Fhome%2Flain%2Fvscodium%2Fprojects%2FWaveX%2Fsrc%2Fcore%2Fkiwisound.py%22%2C%22ref%22%3A%22HEAD%22%7D
+2025-12-03 17:00:06.175 [info] > git cat-file -s 338dfc35a0afe8bbaca62901d29092dc09cdecb4 [18ms]
+2025-12-03 17:00:06.177 [info] > git ls-tree -l HEAD -- src/core/kiwisound.py [30ms]
+2025-12-03 17:00:06.178 [warning] [GitFileSystemProvider][stat] File not found - git:/home/lain/vscodium/projects/WaveX/src/core/kiwisound.py.git?%7B%22path%22%3A%22%2Fhome%2Flain%2Fvscodium%2Fprojects%2FWaveX%2Fsrc%2Fcore%2Fkiwisound.py%22%2C%22ref%22%3A%22HEAD%22%7D
+2025-12-03 17:00:13.926 [info] > git check-ignore -v -z --stdin [5ms]
+2025-12-03 17:00:15.487 [info] > git check-ignore -v -z --stdin [1ms]
+2025-12-03 17:00:16.195 [info] > git check-ignore -v -z --stdin [3ms]
+2025-12-03 17:00:20.563 [info] > git show --textconv :src/core/kiwiclient/proc_kiwi_iq_wav.m [13ms]
+2025-12-03 17:00:20.565 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/lain/vscodium/projects/WaveX/src/core/kiwiclient/proc_kiwi_iq_wav.m.git?%7B%22path%22%3A%22%2Fhome%2Flain%2Fvscodium%2Fprojects%2FWaveX%2Fsrc%2Fcore%2Fkiwiclient%2Fproc_kiwi_iq_wav.m%22%2C%22ref%22%3A%22%22%7D
+2025-12-03 17:00:20.567 [info] > git ls-files --stage -- src/core/kiwiclient/proc_kiwi_iq_wav.m [7ms]
+2025-12-03 17:00:20.568 [warning] [GitFileSystemProvider][stat] File not found - git:/home/lain/vscodium/projects/WaveX/src/core/kiwiclient/proc_kiwi_iq_wav.m.git?%7B%22path%22%3A%22%2Fhome%2Flain%2Fvscodium%2Fprojects%2FWaveX%2Fsrc%2Fcore%2Fkiwiclient%2Fproc_kiwi_iq_wav.m%22%2C%22ref%22%3A%22%22%7D
+2025-12-03 17:00:21.575 [info] > git show --textconv :src/core/kiwisound.py [46ms]
+2025-12-03 17:00:21.575 [info] > git show --textconv HEAD:src/core/kiwisound.py [25ms]
+2025-12-03 17:00:21.575 [info] > git ls-files --stage -- src/core/kiwisound.py [15ms]
+2025-12-03 17:00:21.588 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/lain/vscodium/projects/WaveX/src/core/kiwisound.py.git?%7B%22path%22%3A%22%2Fhome%2Flain%2Fvscodium%2Fprojects%2FWaveX%2Fsrc%2Fcore%2Fkiwisound.py%22%2C%22ref%22%3A%22HEAD%22%7D
+2025-12-03 17:00:21.597 [info] > git cat-file -s 338dfc35a0afe8bbaca62901d29092dc09cdecb4 [13ms]
+2025-12-03 17:00:21.607 [info] > git ls-tree -l HEAD -- src/core/kiwisound.py [35ms]
+2025-12-03 17:00:21.610 [warning] [GitFileSystemProvider][stat] File not found - git:/home/lain/vscodium/projects/WaveX/src/core/kiwisound.py.git?%7B%22path%22%3A%22%2Fhome%2Flain%2Fvscodium%2Fprojects%2FWaveX%2Fsrc%2Fcore%2Fkiwisound.py%22%2C%22ref%22%3A%22HEAD%22%7D
+2025-12-03 17:00:27.810 [info] > git check-ignore -v -z --stdin [3ms]
+2025-12-03 17:14:59.964 [info] > git blame --root --incremental afa342e11314871d8d6abf840b5ef5db26b0a45c -- src/core/kiwisound.py [4ms]
+2025-12-03 17:14:59.964 [info] fatal: no such path src/core/kiwisound.py in afa342e11314871d8d6abf840b5ef5db26b0a45c
+2025-12-03 17:15:41.951 [info] > git rev-parse --show-toplevel [2ms]
+2025-12-03 17:15:41.951 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-12-03 17:15:45.941 [info] > git show --textconv :README.md [29ms]
+2025-12-03 17:15:45.941 [info] > git show --textconv HEAD:README.md [18ms]
+2025-12-03 17:15:45.942 [info] > git ls-files --stage -- README.md [12ms]
+2025-12-03 17:15:45.957 [info] > git cat-file -s 1937b0a53d3b6cbbe1889ca5f156c716ae691caf [7ms]
+2025-12-03 17:15:45.957 [info] > git ls-tree -l HEAD -- README.md [18ms]
+2025-12-03 17:15:48.184 [info] > git rev-parse --show-toplevel [6ms]
+2025-12-03 17:15:48.184 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-12-03 17:15:48.203 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z --shortstat --diff-merges=first-parent -n50 --skip=0 --topo-order --decorate=full --stdin [148ms]
+2025-12-03 17:15:48.372 [info] > git merge-base main origin/main [3ms]
+2025-12-03 17:15:53.636 [info] > git add -A -- README.md [6ms]
+2025-12-03 17:15:53.654 [info] > git config --get commit.template [4ms]
+2025-12-03 17:15:53.666 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2025-12-03 17:15:53.688 [info] > git status -z -uall [15ms]
+2025-12-03 17:15:53.688 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [4ms]
+2025-12-03 17:15:54.515 [info] > git show --textconv :.git/COMMIT_EDITMSG [10ms]
+2025-12-03 17:15:54.517 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/lain/vscodium/projects/WaveX/.git/COMMIT_EDITMSG.git?%7B%22path%22%3A%22%2Fhome%2Flain%2Fvscodium%2Fprojects%2FWaveX%2F.git%2FCOMMIT_EDITMSG%22%2C%22ref%22%3A%22%22%7D
+2025-12-03 17:15:54.518 [info] > git ls-files --stage -- .git/COMMIT_EDITMSG [5ms]
+2025-12-03 17:15:54.519 [warning] [GitFileSystemProvider][stat] File not found - git:/home/lain/vscodium/projects/WaveX/.git/COMMIT_EDITMSG.git?%7B%22path%22%3A%22%2Fhome%2Flain%2Fvscodium%2Fprojects%2FWaveX%2F.git%2FCOMMIT_EDITMSG%22%2C%22ref%22%3A%22%22%7D
+2025-12-03 17:15:54.881 [info] > git check-ignore -v -z --stdin [3ms]
+2025-12-03 17:16:08.494 [info] > git rev-parse --show-toplevel [2ms]
+2025-12-03 17:16:08.494 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-12-03 17:16:09.661 [info] > git show --textconv :.git/COMMIT_EDITMSG [11ms]
+2025-12-03 17:16:09.662 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/lain/vscodium/projects/WaveX/.git/COMMIT_EDITMSG.git?%7B%22path%22%3A%22%2Fhome%2Flain%2Fvscodium%2Fprojects%2FWaveX%2F.git%2FCOMMIT_EDITMSG%22%2C%22ref%22%3A%22%22%7D
+2025-12-03 17:16:09.664 [info] > git ls-files --stage -- .git/COMMIT_EDITMSG [5ms]
+2025-12-03 17:16:09.666 [warning] [GitFileSystemProvider][stat] File not found - git:/home/lain/vscodium/projects/WaveX/.git/COMMIT_EDITMSG.git?%7B%22path%22%3A%22%2Fhome%2Flain%2Fvscodium%2Fprojects%2FWaveX%2F.git%2FCOMMIT_EDITMSG%22%2C%22ref%22%3A%22%22%7D
+2025-12-03 17:16:10.033 [info] > git show --textconv :src/core/kiwisound.py [32ms]
+2025-12-03 17:16:10.033 [info] > git show --textconv HEAD:src/core/kiwisound.py [23ms]
+2025-12-03 17:16:10.033 [info] > git ls-files --stage -- src/core/kiwisound.py [14ms]
+2025-12-03 17:16:10.041 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/lain/vscodium/projects/WaveX/src/core/kiwisound.py.git?%7B%22path%22%3A%22%2Fhome%2Flain%2Fvscodium%2Fprojects%2FWaveX%2Fsrc%2Fcore%2Fkiwisound.py%22%2C%22ref%22%3A%22HEAD%22%7D
+2025-12-03 17:16:10.045 [info] > git cat-file -s 338dfc35a0afe8bbaca62901d29092dc09cdecb4 [5ms]
+2025-12-03 17:16:10.046 [info] > git ls-tree -l HEAD -- src/core/kiwisound.py [16ms]
+2025-12-03 17:16:10.047 [warning] [GitFileSystemProvider][stat] File not found - git:/home/lain/vscodium/projects/WaveX/src/core/kiwisound.py.git?%7B%22path%22%3A%22%2Fhome%2Flain%2Fvscodium%2Fprojects%2FWaveX%2Fsrc%2Fcore%2Fkiwisound.py%22%2C%22ref%22%3A%22HEAD%22%7D
+2025-12-03 17:16:10.984 [info] > git show --textconv :.git/COMMIT_EDITMSG [27ms]
+2025-12-03 17:16:10.987 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/lain/vscodium/projects/WaveX/.git/COMMIT_EDITMSG.git?%7B%22path%22%3A%22%2Fhome%2Flain%2Fvscodium%2Fprojects%2FWaveX%2F.git%2FCOMMIT_EDITMSG%22%2C%22ref%22%3A%22%22%7D
+2025-12-03 17:16:10.992 [info] > git ls-files --stage -- .git/COMMIT_EDITMSG [12ms]
+2025-12-03 17:16:10.997 [warning] [GitFileSystemProvider][stat] File not found - git:/home/lain/vscodium/projects/WaveX/.git/COMMIT_EDITMSG.git?%7B%22path%22%3A%22%2Fhome%2Flain%2Fvscodium%2Fprojects%2FWaveX%2F.git%2FCOMMIT_EDITMSG%22%2C%22ref%22%3A%22%22%7D
+2025-12-03 17:16:11.853 [info] > git -c user.useConfigOnly=true commit --quiet [18144ms]
+2025-12-03 17:16:11.853 [info] Aborting commit due to empty commit message.
+2025-12-03 17:16:11.881 [info] > git config --get commit.template [14ms]
+2025-12-03 17:16:11.885 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [6ms]
+2025-12-03 17:16:11.934 [info] > git status -z -uall [39ms]
+2025-12-03 17:16:11.934 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [19ms]
+2025-12-03 17:16:11.964 [info] > git rev-parse --show-toplevel [33ms]
+2025-12-03 17:16:11.964 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-12-03 17:16:11.965 [info] > git config --get commit.template [4ms]
+2025-12-03 17:16:11.975 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2025-12-03 17:16:12.004 [info] > git status -z -uall [17ms]
+2025-12-03 17:16:12.006 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [6ms]
+2025-12-03 17:16:12.604 [info] > git rev-parse --show-toplevel [3ms]
+2025-12-03 17:16:12.604 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-12-03 17:16:31.365 [info] > git rev-parse --show-toplevel [3ms]
+2025-12-03 17:16:31.365 [info] fatal: not a git repository (or any of the parent directories): .git

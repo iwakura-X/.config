@@ -1,0 +1,55 @@
+2025-11-25 19:54:54.328 [info] [main] Log level: Info
+2025-11-25 19:54:54.328 [info] [main] Validating found git in: "git"
+2025-11-25 19:54:54.328 [info] [main] Using git "2.52.0" from "git"
+2025-11-25 19:54:54.328 [info] [Model][doInitialScan] Initial repository scan started
+2025-11-25 19:54:54.328 [info] > git rev-parse --show-toplevel [54ms]
+2025-11-25 19:54:54.328 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-11-25 19:54:54.328 [info] > git rev-parse --show-toplevel [8ms]
+2025-11-25 19:54:54.328 [info] > git rev-parse --git-dir --git-common-dir --show-superproject-working-tree [7ms]
+2025-11-25 19:54:54.328 [info] [Model][openRepository] Opened repository (path): /home/lain/vscodium/projects/WaveX
+2025-11-25 19:54:54.328 [info] [Model][openRepository] Opened repository (real path): /home/lain/vscodium/projects/WaveX
+2025-11-25 19:54:54.328 [info] [Model][openRepository] Opened repository (kind): repository
+2025-11-25 19:54:54.328 [info] > git rev-parse --show-toplevel [6ms]
+2025-11-25 19:54:54.328 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-11-25 19:54:54.328 [info] > git config --get commit.template [18ms]
+2025-11-25 19:54:54.328 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [21ms]
+2025-11-25 19:54:54.328 [info] > git rev-parse --show-toplevel [31ms]
+2025-11-25 19:54:54.328 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-11-25 19:54:54.343 [info] > git rev-parse --show-toplevel [9ms]
+2025-11-25 19:54:54.344 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-11-25 19:54:54.345 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2025-11-25 19:54:54.474 [info] > git status -z -uall [17ms]
+2025-11-25 19:54:54.476 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [8ms]
+2025-11-25 19:54:54.551 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [19ms]
+2025-11-25 19:54:54.569 [info] > git config --get --local branch.main.vscode-merge-base [8ms]
+2025-11-25 19:54:54.569 [warning] [Git][config] git config failed: Failed to execute git
+2025-11-25 19:54:54.578 [info] > git config --get commit.template [28ms]
+2025-11-25 19:54:54.593 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [6ms]
+2025-11-25 19:54:54.594 [info] > git reflog main --grep-reflog=branch: Created from *. [17ms]
+2025-11-25 19:54:54.627 [info] > git show --textconv :docs/wavex.1 [13ms]
+2025-11-25 19:54:54.629 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [29ms]
+2025-11-25 19:54:54.637 [info] > git ls-files --stage -- docs/wavex.1 [14ms]
+2025-11-25 19:54:54.648 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [14ms]
+2025-11-25 19:54:54.680 [info] > git status -z -uall [14ms]
+2025-11-25 19:54:54.680 [info] > git config --add --local branch.main.vscode-merge-base origin/main [25ms]
+2025-11-25 19:54:54.683 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [7ms] (cancelled)
+2025-11-25 19:54:54.688 [info] > git cat-file -s 672f183b89eafc7b721a6c55f926c753c3e0f2ce [42ms]
+2025-11-25 19:54:54.702 [info] > git config --get commit.template [4ms]
+2025-11-25 19:54:54.751 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [34ms]
+2025-11-25 19:54:54.765 [info] > git rev-parse --show-toplevel [11ms]
+2025-11-25 19:54:54.765 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-11-25 19:54:54.792 [info] > git status -z -uall [16ms]
+2025-11-25 19:54:54.795 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [5ms]
+2025-11-25 19:54:54.833 [info] > git merge-base refs/heads/main refs/remotes/origin/main [19ms]
+2025-11-25 19:54:54.876 [info] > git check-ignore -v -z --stdin [10ms]
+2025-11-25 19:54:54.878 [info] > git diff --name-status -z --diff-filter=ADMR --find-renames=50% afa342e11314871d8d6abf840b5ef5db26b0a45c...refs/remotes/origin/main -- [29ms]
+2025-11-25 19:54:54.880 [info] > git merge-base refs/heads/main refs/remotes/origin/main [48ms]
+2025-11-25 19:54:54.912 [info] > git diff --name-status -z --diff-filter=ADMR --find-renames=50% afa342e11314871d8d6abf840b5ef5db26b0a45c...refs/remotes/origin/main -- [14ms]
+2025-11-25 19:54:54.994 [info] > git blame --root --incremental afa342e11314871d8d6abf840b5ef5db26b0a45c -- docs/wavex.1 [7ms]
+2025-11-25 19:54:56.096 [info] > git ls-files --stage -- docs/wavex.1 [3ms]
+2025-11-25 19:54:56.107 [info] > git cat-file -s 672f183b89eafc7b721a6c55f926c753c3e0f2ce [3ms]
+2025-11-25 19:54:56.123 [info] > git show --textconv :docs/wavex.1 [4ms]
+2025-11-25 19:54:56.658 [info] > git rev-parse --show-toplevel [3ms]
+2025-11-25 19:54:56.658 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-11-25 19:54:56.845 [info] > git rev-parse --show-toplevel [4ms]
+2025-11-25 19:54:56.845 [info] fatal: not a git repository (or any of the parent directories): .git

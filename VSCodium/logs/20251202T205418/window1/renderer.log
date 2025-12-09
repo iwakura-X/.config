@@ -1,0 +1,11 @@
+2025-12-02 20:54:23.331 [info] Started local extension host with pid 5856.
+2025-12-02 20:54:28.811 [error] Cannot read properties of undefined (reading 'extensionId'): TypeError: Cannot read properties of undefined (reading 'extensionId')
+    at t (vscode-file://vscode-app/opt/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:4125:2745)
+    at mDt.recommendRemoteExtensionIfNeeded (vscode-file://vscode-app/opt/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:4125:3497)
+2025-12-02 20:54:29.291 [info] [perf] Render performance baseline is 96ms
+2025-12-02 20:55:06.775 [error] Error while getting the latest version for the extension dracula-theme.theme-dracula. TypeError: Failed to fetch
+2025-12-02 20:55:06.777 [error] Error while getting the latest version for the extension ms-python.debugpy. TypeError: Failed to fetch
+2025-12-02 20:55:06.779 [error] Error while getting the latest version for the extension ms-python.python. TypeError: Failed to fetch
+2025-12-02 20:55:06.781 [error] Error while getting the latest version for the extension ms-python.vscode-python-envs. TypeError: Failed to fetch
+2025-12-02 20:56:09.869 [error] [Extension Host] (node:5856) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `exe --trace-deprecation ...` to show where the warning was created)

@@ -1,0 +1,4 @@
+2025-11-25 19:54:53.500 [error] #1: https://open-vsx.org/vscode/gallery/ms-python/debugpy/latest - error GET Failed to fetch
+2025-11-25 19:54:53.504 [error] #2: https://open-vsx.org/vscode/gallery/ms-python/python/latest - error GET Failed to fetch
+2025-11-25 19:54:53.510 [error] #3: https://open-vsx.org/vscode/gallery/ms-python/vscode-python-envs/latest - error GET Failed to fetch
+2025-11-25 19:54:53.545 [error] #4: https://open-vsx.org/vscode/gallery/extensionquery - error POST Failed to fetch

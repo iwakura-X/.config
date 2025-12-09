@@ -1,0 +1,9 @@
+2025-12-03 12:51:09.538 [info] Telemetry is disabled
+2025-12-03 12:51:09.538 [info] Telemetry level is off
+2025-12-03 12:51:09.538 [info] Experiments are disabled, only manually opted experiments are active.
+2025-12-03 12:51:09.538 [warning] Dir "/home/lain/vscodium/.pixi/envs" is not watchable (directory does not exist)
+2025-12-03 12:51:11.263 [info] Python interpreter path: /bin/python
+2025-12-03 12:51:13.250 [info] > pyenv which python
+2025-12-03 12:51:13.250 [info] cwd: .
+2025-12-03 12:51:16.249 [info] Starting Jedi language server for vscodium.
+2025-12-03 17:16:17.872 [info] Discover tests for workspace name: vscodium - uri: /home/lain/vscodium/projects/PomodoroTimer/timer.py

@@ -1,0 +1,7 @@
+file:///home/lain/vscodium/projects/voidmap/core/starmap.py {"mtime":1764771390954,"ctime":1764771390954,"size":0,"etag":"3f8phpa7s0","orphaned":false,"typeId":""}
+class map:
+    def __init__(self, width: int, height: int):
+        self.width = 100
+        self.height = 100
+
+    def add_source(self, source: "")

@@ -1,0 +1,2 @@
+2025-11-26 17:48:42.496 [error] #27: https://raw.githubusercontent.com/EclipseFdn/publish-extensions/refs/heads/master/extension-control/extensions.json - error GET net::ERR_NAME_NOT_RESOLVED
+2025-11-26 17:54:02.538 [error] #28: https://raw.githubusercontent.com/EclipseFdn/publish-extensions/refs/heads/master/extension-control/extensions.json - error GET net::ERR_NAME_NOT_RESOLVED

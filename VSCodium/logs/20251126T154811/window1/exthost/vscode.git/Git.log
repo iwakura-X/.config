@@ -1,0 +1,54 @@
+2025-11-26 15:48:24.222 [info] [main] Log level: Info
+2025-11-26 15:48:24.222 [info] [main] Validating found git in: "git"
+2025-11-26 15:48:24.222 [info] [main] Using git "2.52.0" from "git"
+2025-11-26 15:48:24.222 [info] [Model][doInitialScan] Initial repository scan started
+2025-11-26 15:48:24.222 [info] > git rev-parse --show-toplevel [33ms]
+2025-11-26 15:48:24.222 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-11-26 15:48:24.248 [info] > git rev-parse --show-toplevel [196ms]
+2025-11-26 15:48:24.566 [info] > git rev-parse --git-dir --git-common-dir --show-superproject-working-tree [309ms]
+2025-11-26 15:48:24.597 [info] [Model][openRepository] Opened repository (path): /home/lain/vscodium/projects/WaveX
+2025-11-26 15:48:24.597 [info] [Model][openRepository] Opened repository (real path): /home/lain/vscodium/projects/WaveX
+2025-11-26 15:48:24.597 [info] [Model][openRepository] Opened repository (kind): repository
+2025-11-26 15:48:24.650 [info] > git rev-parse --show-toplevel [12ms]
+2025-11-26 15:48:24.650 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-11-26 15:48:24.651 [info] > git config --get commit.template [20ms]
+2025-11-26 15:48:24.689 [info] > git rev-parse --show-toplevel [19ms]
+2025-11-26 15:48:24.689 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-11-26 15:48:24.719 [info] > git rev-parse --show-toplevel [11ms]
+2025-11-26 15:48:24.719 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-11-26 15:48:24.721 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2025-11-26 15:48:24.833 [info] > git rev-parse --show-toplevel [3ms]
+2025-11-26 15:48:24.848 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-11-26 15:48:25.083 [info] > git rev-parse --show-toplevel [3ms]
+2025-11-26 15:48:25.083 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-11-26 15:48:25.094 [info] > git ls-files --stage -- docs/wavex.1 [80ms]
+2025-11-26 15:48:25.171 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [485ms]
+2025-11-26 15:48:25.216 [info] > git check-ignore -v -z --stdin [7ms]
+2025-11-26 15:48:25.353 [info] > git status -z -uall [169ms]
+2025-11-26 15:48:25.364 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [170ms]
+2025-11-26 15:48:25.447 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [20ms]
+2025-11-26 15:48:25.576 [info] > git show --textconv :docs/wavex.1 [573ms]
+2025-11-26 15:48:25.577 [info] > git config --get --local branch.main.vscode-merge-base [119ms]
+2025-11-26 15:48:25.584 [info] > git config --get commit.template [139ms]
+2025-11-26 15:48:25.585 [info] > git cat-file -s 672f183b89eafc7b721a6c55f926c753c3e0f2ce [484ms]
+2025-11-26 15:48:25.596 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [13ms]
+2025-11-26 15:48:25.618 [info] > git merge-base refs/heads/main refs/remotes/origin/main [13ms]
+2025-11-26 15:48:25.632 [info] > git diff --name-status -z --diff-filter=ADMR --find-renames=50% afa342e11314871d8d6abf840b5ef5db26b0a45c...refs/remotes/origin/main -- [5ms]
+2025-11-26 15:48:25.633 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [16ms]
+2025-11-26 15:48:25.654 [info] > git status -z -uall [11ms]
+2025-11-26 15:48:25.657 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [5ms]
+2025-11-26 15:48:29.027 [info] > git ls-files --stage -- PKGBUILD [3ms]
+2025-11-26 15:48:29.098 [info] > git show --textconv :PKGBUILD [82ms]
+2025-11-26 15:48:29.121 [info] > git cat-file -s e69de29bb2d1d6434b8b29ae775ad8c2e48c5391 [89ms]
+2025-11-26 15:48:29.779 [info] > git rev-parse --show-toplevel [3ms]
+2025-11-26 15:48:29.779 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-11-26 15:48:31.564 [info] > git rev-parse --show-toplevel [1ms]
+2025-11-26 15:48:31.564 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-11-26 15:50:55.382 [info] > git check-ignore -v -z --stdin [3ms]
+2025-11-26 15:50:56.219 [info] > git check-ignore -v -z --stdin [3ms]
+2025-11-26 15:51:00.834 [info] > git rev-parse --show-toplevel [5ms]
+2025-11-26 15:51:00.834 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-11-26 15:52:26.231 [info] > git rev-parse --show-toplevel [11ms]
+2025-11-26 15:52:26.231 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-11-26 15:52:30.748 [info] > git rev-parse --show-toplevel [4ms]
+2025-11-26 15:52:30.748 [info] fatal: not a git repository (or any of the parent directories): .git

@@ -1,0 +1,8 @@
+2025-11-26 19:01:14.139 [info] Telemetry is disabled
+2025-11-26 19:01:14.139 [info] Telemetry level is off
+2025-11-26 19:01:14.139 [info] Experiments are disabled, only manually opted experiments are active.
+2025-11-26 19:01:14.139 [warning] Dir "/home/lain/vscodium/.pixi/envs" is not watchable (directory does not exist)
+2025-11-26 19:01:14.682 [info] Python interpreter path: /bin/python
+2025-11-26 19:01:15.389 [info] > pyenv which python
+2025-11-26 19:01:15.389 [info] cwd: .
+2025-11-26 19:01:20.310 [info] Starting Jedi language server for vscodium.

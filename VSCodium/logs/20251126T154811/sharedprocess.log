@@ -1,0 +1,5 @@
+2025-11-26 15:52:16.223 [info] Getting Manifest... dracula-theme.theme-dracula
+2025-11-26 15:52:16.969 [info] Installing extension: dracula-theme.theme-dracula {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/lain/.vscode-oss/extensions/extensions.json","path":"/home/lain/.vscode-oss/extensions/extensions.json","scheme":"vscode-userdata"},"isApplicationScoped":false,"productVersion":{"version":"1.106.27818","date":"2025-11-21T18:45:03.730Z"}}
+2025-11-26 15:52:18.818 [info] Extracted extension to file:///home/lain/.vscode-oss/extensions/dracula-theme.theme-dracula-2.25.1-universal: dracula-theme.theme-dracula
+2025-11-26 15:52:18.888 [info] Renamed to /home/lain/.vscode-oss/extensions/dracula-theme.theme-dracula-2.25.1-universal
+2025-11-26 15:52:18.986 [info] Extension installed successfully: dracula-theme.theme-dracula vscode-userdata:/home/lain/.vscode-oss/extensions/extensions.json
