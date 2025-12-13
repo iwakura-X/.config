@@ -16,6 +16,10 @@ configs:
       row: 5
       col: 0
       last_seen: 1764508533896013
+    "4A5A-F781":
+      row: 3
+      col: 0
+      last_seen: 1765380888200262
     "6E39-DABB":
       row: 5
       col: 0
@@ -25,9 +29,9 @@ configs:
       col: 0
       last_seen: 1763908716912304
     "e92e2ba3-834b-4957-a0e9-e9fbf6257e22":
-      row: 3
+      row: 4
       col: 0
-      last_seen: 1764519498351039
+      last_seen: 1765380888217590
     "1F24-0CDF":
       row: 4
       col: 0
